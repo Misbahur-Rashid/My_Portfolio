@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #efefef;
+  font-family: sans-serif;
+}
+/*Profile part Start*/
+.profile-img {
+  width: 40%;
+  float: right;
+}
+.profile-img img {
+  width: 97%;
+  height: 75%;
+  margin-top: 15px;
+}
+
+.name {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 25px;
+  font-family: sans-serif;
+  color: green;
+}
+.address {
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+/* Style all font awesome icons */
+.social-icon {
+  margin-left: 37%;
+}
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 10px;
+  align-items: center;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+/* Instagram */
+.fa-instagram {
+  background: #a103fd81;
+  color: white;
+}
+
+.about-us {
+  text-align: justify;
+  margin: 15px 15px;
+  font-size: 13px;
+}
+
+/*Profile part End*/
+
+/*Expertise part Start*/
+.expertise-info {
+  width: 60%;
+  height: 100vh;
+  float: left;
+  padding: 0 30px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.expertise-info::-webkit-scrollbar {
+  width: 0;
+}
+.expertise img {
+  height: 5%;
+  width: 50%;
+  margin: 5px;
+}
+.expertise {
+  display: inline-block;
+  width: 28%;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background-color: #fff;
+}
+.extertise-h2 {
+  margin-top: 10px;
+}
+.expertise small {
+  padding-top: 10px;
+  display: block;
+}
+/*Expertise part End*/
+
+/*Job part Start*/
+.experience-info {
+  width: 60%;
+  height: 100vh;
+  float: left;
+  padding: 0 30px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.experience-info::-webkit-scrollbar {
+  width: 0;
+}
+.experience img {
+  height: 5%;
+  width: 50%;
+  margin: 5px;
+}
+.experience {
+  display: inline-block;
+  width: 28%;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background-color: #fff;
+}
+.experience-h2 {
+  margin-top: 10px;
+}
+.experience small {
+  padding-top: 10px;
+  display: block;
+}
+/*Job part End*/
+
+/*Projects part Start*/
+.projects img {
+  width: 31%;
+  padding: 4px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+/*Projects part End*/
+
+/*Personal Attribute and Key Skills part Start*/
+.key-skils {
+  margin-top: 10px;
+}
+.table-box {
+  margin: 50px auto;
+}
+.table-row {
+  display: table;
+  width: 80%;
+  margin: 10px auto;
+  font-family: sans-serif;
+  background: transparent;
+  padding: 12px 0;
+  color: #555;
+  font-size: 13px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+}
+.table-head {
+  background: #8665f7;
+  box-shadow: none;
+  color: white;
+  font-weight: 800;
+}
+.table-head .table-cell {
+  border-right: none;
+}
+.first-cell {
+  text-align: left;
+  padding-left: 10px;
+}
+.last-cell {
+  border-right: none;
+}
+
+.table-cell {
+  display: table-cell;
+  width: 30%;
+  text-align: center;
+  padding: 4px 0;
+  border-right: 1px solid #d6d4d4;
+  vertical-align: middle;
+}
+
+/*Personal Attribute and Key Skills part End*/
+
+/*Contact part Start*/
+.form-box {
+  margin-top: 30px;
+}
+.input-group input {
+  width: 45%;
+  border: 0;
+  outline: none !important;
+  padding: 10px;
+  margin: 2%;
+  display: inline-block;
+  background: #fff;
+}
+.text-area textarea {
+  width: 95%;
+  border: 0;
+  outline: none !important;
+  padding: 10px;
+  margin: 2%;
+  background: #fff;
+}
+.submit-btn {
+  border: 0;
+  outline: none !important;
+  padding: 10px 20px;
+  margin: 2%;
+  background: #2ad0ff;
+  cursor: pointer;
+  color: #fff;
+}
+.contact img {
+  width: 20px;
+  margin: -5px 10px;
+}
+.contact span {
+  margin: 5%;
+}
+.contact {
+  margin: 5% 0 5% 25%;
+  width: 65%;
+}
+/*Contact part End*/
+
+.copyright {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/*Responsive part Start*/
+@media only screen and (max-width: 900px) {
+  .profile-info {
+    width: 100%;
+    overflow: inherit;
+  }
+  .profile-img {
+    width: 100%;
+  }
+  .expertise {
+    width: 95%;
+    margin-bottom: 10%;
+  }
+  .expertise img {
+    height: 8%;
+    margin: 10px 0;
+  }
+  .projects img {
+    width: 47%;
+  }
+  span {
+    display: block;
+  }
+}
+/*Responsive part End*/
